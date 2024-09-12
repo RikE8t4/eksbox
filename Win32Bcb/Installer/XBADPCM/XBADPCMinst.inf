@@ -1,0 +1,36 @@
+[Version] 
+Signature   = "$Chicago$" 
+AdvancedINF = 2.5, "Your setup subsystem is outdated.  Please install IE 3.01 or greater." 
+Class       = MEDIA 
+  
+[DefaultInstall] 
+CopyFiles  = CopyFiles.DLL 
+UpdateInis = UpdateInis.95 
+MediaType  = Software 
+  
+[DefaultInstall.NT] 
+CopyFiles  = CopyFiles.DLL 
+AddReg     = AddReg.NT 
+MediaType  = Software 
+  
+[DestinationDirs] 
+CopyFiles.DLL        = 11  
+DefaultDestDir       = 11  
+  
+[UpdateInis.95]  
+system.ini, drivers32,, "msacm.imc=imc32.acm" 
+  
+[AddReg.NT] 
+HKLM, "SOFTWARE\Microsoft\Windows NT\CurrentVersion\Drivers32", "msacm.imc",, "xbadpcm.acm" 
+HKLM, "SOFTWARE\Microsoft\Windows NT\CurrentVersion\drivers.desc", "xbadpcm.acm",, "Xbox ADPCM Audio CODEC" 
+  
+[SourceDisksNames] 
+1 = "Xbox ADPCM Audio CODEC installer",xbpcm.cab,0 
+  
+[SourceDisksFiles] 
+xbadpcm.acm = 1 
+  
+[CopyFiles.DLL] 
+xbadpcm.acm,,,33 
+  
+[Strings] 

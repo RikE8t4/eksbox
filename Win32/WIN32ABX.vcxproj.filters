@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{661f2899-70a2-4e73-827b-1d0d13128fd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Formats">
+      <UniqueIdentifier>{ca211358-07f7-47af-92fb-66c637d0faa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Formats\Read">
+      <UniqueIdentifier>{75f55b2d-0986-4162-921a-34bff432d4d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Formats\Convert">
+      <UniqueIdentifier>{b4de66c7-9509-4c9f-88a4-5dc586f980dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Zlib">
+      <UniqueIdentifier>{02434523-fe69-427b-9a29-d2d12e5582fc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WIN32ABX.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Gui.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\LowLevel.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Open.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Scx.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\stdafx.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Strings.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\SystemX.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Xct.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Formats\Engine.cpp">
+      <Filter>Core\Formats</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Formats\FormatExtract.cpp">
+      <Filter>Core\Formats</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Formats\FormatHdrs.cpp">
+      <Filter>Core\Formats</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Formats\FormatScan.cpp">
+      <Filter>Core\Formats</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Formats\Read\Adf.cpp">
+      <Filter>Core\Formats\Read</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Formats\Read\Adx.cpp">
+      <Filter>Core\Formats\Read</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Formats\Read\Afs.cpp">
+      <Filter>Core\Formats\Read</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Formats\Read\Arc.cpp">
+      <Filter>Core\Formats\Read</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Formats\Read\Bif.cpp">
+      <Filter>Core\Formats\Read</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Formats\Read\BigCode.cpp">
+      <Filter>Core\Formats\Read</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Formats\Read\BigEa.cpp">
+      <Filter>Core\Formats\Read</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Formats\Read\CabForza.cpp">
+      <Filter>Core\Formats\Read</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Formats\Read\DatRoller.cpp">
+      <Filter>Core\Formats\Read</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Formats\Read\Fsb.cpp">
+      <Filter>Core\Formats\Read</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Formats\Read\Gta5.cpp">
+      <Filter>Core\Formats\Read</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Formats\Read\Hot.cpp">
+      <Filter>Core\Formats\Read</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Formats\Read\Hwx.cpp">
+      <Filter>Core\Formats\Read</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Formats\Read\Lug.cpp">
+      <Filter>Core\Formats\Read</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Formats\Read\MapHalo.cpp">
+      <Filter>Core\Formats\Read</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Formats\Read\Misc.cpp">
+      <Filter>Core\Formats\Read</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Formats\Read\Mpk.cpp">
+      <Filter>Core\Formats\Read</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Formats\Read\Msx.cpp">
+      <Filter>Core\Formats\Read</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Formats\Read\PakGoblin.cpp">
+      <Filter>Core\Formats\Read</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Formats\Read\Piz.cpp">
+      <Filter>Core\Formats\Read</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Formats\Read\Pod.cpp">
+      <Filter>Core\Formats\Read</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Formats\Read\Rcf.cpp">
+      <Filter>Core\Formats\Read</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Formats\Read\Rez.cpp">
+      <Filter>Core\Formats\Read</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Formats\Read\Rfa.cpp">
+      <Filter>Core\Formats\Read</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Formats\Read\Rws.cpp">
+      <Filter>Core\Formats\Read</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Formats\Read\Samp.cpp">
+      <Filter>Core\Formats\Read</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Formats\Read\Sh4.cpp">
+      <Filter>Core\Formats\Read</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Formats\Read\Sr.cpp">
+      <Filter>Core\Formats\Read</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Formats\Read\Stx.cpp">
+      <Filter>Core\Formats\Read</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Formats\Read\Wad.cpp">
+      <Filter>Core\Formats\Read</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Formats\Read\Wav.cpp">
+      <Filter>Core\Formats\Read</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Formats\Read\Wma.cpp">
+      <Filter>Core\Formats\Read</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Formats\Read\Wmapack.cpp">
+      <Filter>Core\Formats\Read</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Formats\Read\Wpx.cpp">
+      <Filter>Core\Formats\Read</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Formats\Read\Xbp.cpp">
+      <Filter>Core\Formats\Read</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Formats\Read\Xiso.cpp">
+      <Filter>Core\Formats\Read</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Formats\Read\Xwb.cpp">
+      <Filter>Core\Formats\Read</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Formats\Read\Xwc.cpp">
+      <Filter>Core\Formats\Read</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Formats\Read\Zsm.cpp">
+      <Filter>Core\Formats\Read</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Formats\Convert\Adx2wav.cpp">
+      <Filter>Core\Formats\Convert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Formats\Convert\ConvertStx.cpp">
+      <Filter>Core\Formats\Convert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Zlib\CZlib.cpp">
+      <Filter>Core\Zlib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Core\Gui.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\LowLevel.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Open.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Scx.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\stdafx.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Strings.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\SystemX.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Xct.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Formats\Engine.h">
+      <Filter>Core\Formats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Formats\FormatHdrs.h">
+      <Filter>Core\Formats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Formats\FormatScan.h">
+      <Filter>Core\Formats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Formats\Convert\Adx2wav.h">
+      <Filter>Core\Formats\Convert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Formats\Convert\ConvertStx.h">
+      <Filter>Core\Formats\Convert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Zlib\CZlib.h">
+      <Filter>Core\Zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Zlib\zconf.h">
+      <Filter>Core\Zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Zlib\zlib.h">
+      <Filter>Core\Zlib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
