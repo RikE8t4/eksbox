@@ -1,8 +1,0 @@
-- Get the filename
-
-Open.cpp
-- Open the file (Open.cpp) & clear the structs in FileSpecs (Formats\Engine.h)
-- Figure out the format (Formats\FormatScan.cpp)
-- Call correct format read function (Formats\Read\*.*),
-  info from file will be read into global CItem & FItem structs (Formats\Engine.h)
-- Call extract (Formats\FormatExtract.cpp)
